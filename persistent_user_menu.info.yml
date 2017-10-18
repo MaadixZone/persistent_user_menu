@@ -1,0 +1,5 @@
+name: Persistent user menu
+type: module
+description: Creates a clone of user menu to persist everywhere is wanted
+core: 8.x
+package: Custom

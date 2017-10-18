@@ -1,0 +1,6 @@
+persistent_user_menu.orders:
+  title: 'Orders'
+  description: 'Description of link goes here.'
+  route_name: view.ordered_items.page_1
+  route_parameters: { key: 'user' }
+  menu_name: client_area

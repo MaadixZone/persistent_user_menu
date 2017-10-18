@@ -1,0 +1,14 @@
+{
+  "name": "drupal/persistent_user_menu",
+  "type": "drupal-module",
+  "description": "Creates a clone of user menu to persist everywhere is wanted",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/persistent_user_menu",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/persistent_user_menu",
+    "source": "http://cgit.drupalcode.org/persistent_user_menu"
+  },
+  "require": { }
+}

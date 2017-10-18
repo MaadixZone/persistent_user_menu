@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains persistent_user_menu.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function persistent_user_menu_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the persistent_user_menu module.
+    case 'help.page.persistent_user_menu':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Creates a clone of user menu to persist everywhere is wanted') . '</p>';
+      return $output;
+
+    default:
+  }
+}
